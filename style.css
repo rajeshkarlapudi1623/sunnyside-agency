@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.page{
+    width: 100vw;
+    height: auto;
+}
+ 
+.header{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+}
+
+.s1{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+
+.container1{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+.egg{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-size: cover;
+}
+
+.s2{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+
+.cup{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-size: cover;
+}
+
+.container2{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+.s3{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.cherry{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 400px;
+}
+
+.orange{
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 400px;
+}
+
+.profiles{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.pictures{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.pic1{
+    width: 25%;
+    height: 100%;
+    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+}
+
+.pic2{
+    width: 25%;
+    height: 100%;
+    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+}
+
+.pic3{
+    width: 25%;
+    height: 100%;
+    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+}
+
+.pic4{
+    width: 25%;
+    height: 100%;
+    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+}
+
+.main{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+}
+
+.navigations{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigations a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigations .contact{
+    color: hsl(198, 62%, 26%);
+}
+
+.contact{
+    margin-top: -7px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header h1{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.arrow{
+    width: 10px;
+    margin: auto;
+    display: flex;
+    margin-top: 120px;
+}
+
+.container1 h1{
+    width: 50%;
+    margin: auto;
+}
+
+.container1 h1 span{
+    display: block;
+}
+
+.container1 p{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.container1 h4{
+    width: max-content;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-bottom: 5px solid hsl(51, 100%, 49%);
+
+}
+
+.container2 h1{
+    width: 50%;
+    margin: auto;
+}
+
+.container2 p{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.container2 h4{
+    width: max-content;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-bottom: 5px solid hsl(7, 99%, 70%);
+}
+
+.content1 h3{
+    width: 45%;
+    margin: auto;
+}
+
+.content1 p{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.content2 h3{
+    width: 45%;
+    margin: auto;
+}
+
+.content2 p{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.all{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro{
+    width: 30%;
+    text-align: center;
+}
+
+.pro img{
+    border-radius: 100%;
+}
+
+.all{
+    margin-top: 100px;
+}
+
+.profiles h2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    text-transform: capitalize;
+    color: hsl(213, 9%, 39%);
+    letter-spacing: 3px;
+}
+
+.profile1 p{
+    margin-top: 50px;
+}
+
+.profile1 h4{
+    margin-top: 80px;
+}
+
+.profile1 h5{
+    margin-top: 10px;
+    color: hsl(210, 4%, 67%);
+}
+
+.profile2 p{
+    margin-top: 50px;
+}
+
+.profile2 h4{
+    margin-top: 80px;
+}
+
+.profile2 h5{
+    margin-top: 10px;
+    color: hsl(210, 4%, 67%);
+}
+
+.profile3 p{
+    margin-top: 50px;
+}
+
+.profile3 h4{
+    margin-top: 80px;
+}
+
+.profile3 h5{
+    margin-top: 10px;
+    color: hsl(210, 4%, 67%);
+}
+
+.footer{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(168, 34%, 41%);
+}
+
+.footer h2{
+    color: hsl(166, 63%, 23%);
+    letter-spacing: 1px;
+}
+
+.footer .footer1{
+    padding-top: 15px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer .footer1 a{
+    color: hsl(166, 63%, 23%);
+    text-decoration: none;
+}
+
+.footer .social{
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
